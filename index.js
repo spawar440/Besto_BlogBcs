@@ -9,7 +9,7 @@ const app = express();
 const PORT = 3001;
 const JWT_SECRET = 'my-32-character-ultra-secure-and-ultra-long-secret';
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://blog_besto:RkrCZRJ3VXsgxGXd@cluster0.sk77ite.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://pranavbhujbal2001:user@cluster0.eh7gy8i.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
